@@ -13,7 +13,7 @@
     "vscode": "^1.88.0"
   },
   "scripts": {
-    "install": "vsce pack -o out.vsix && code --install-extension out.vsix"
+    "install": "pnpm dlx @vscode/vsce pack -o out.vsix && code --install-extension out.vsix"
   },
   "categories": ["Themes"],
   "contributes": {
