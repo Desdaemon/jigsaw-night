@@ -1,0 +1,28 @@
+{
+  "name": "jigsaw-night",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Desdaemon/jigsaw-night.git"
+  },
+  "publisher": "Desdaemon",
+  "license": "MIT",
+  "displayName": "JigsawNight",
+  "description": "Color theme for Jigsaw Puzzle World BG from Yume 2kki",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "scripts": {
+    "install": "vsce pack -o out.vsix && code --install-extension out.vsix"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jigsaw World",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jigsaw-night-color-theme.json"
+      }
+    ]
+  }
+}
