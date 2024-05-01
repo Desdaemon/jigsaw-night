@@ -11,6 +11,9 @@
     },
     "variable.defaultLibrary": {
       "foreground": "#b8cdff"
+    },
+    "parameter": {
+      "foreground": "#aa76db"
     }
   },
   "tokenColors": [
@@ -480,9 +483,9 @@
     },
     {
       "name": "python parameter",
-      "scope": "variable.parameter.function.language.python",
+      "scope": "variable.parameter.function-call.python",
       "settings": {
-        "foreground": "#9488b6"
+        "foreground": "#aa76db"
       }
     },
     {
